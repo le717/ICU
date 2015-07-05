@@ -58,4 +58,3 @@ setup(
                  targetName="{0}.exe".format(const.APP_NAME),
                             base="Win32GUI")]
 )
-
