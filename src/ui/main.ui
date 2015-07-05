@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <author>Rioforce</author>
- <class>ICUMainWindow</class>
- <widget class="QMainWindow" name="ICUMainWindow">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
   <property name="windowModality">
    <enum>Qt::NonModal</enum>
   </property>
@@ -25,12 +25,6 @@
     <width>480</width>
     <height>530</height>
    </size>
-  </property>
-  <property name="font">
-   <font>
-    <pointsize>8</pointsize>
-    <strikeout>false</strikeout>
-   </font>
   </property>
   <property name="windowTitle">
    <string>Island Configuration Utility</string>
@@ -843,7 +837,7 @@
   <connection>
    <sender>CloseWindow</sender>
    <signal>clicked()</signal>
-   <receiver>ICUMainWindow</receiver>
+   <receiver>MainWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -859,7 +853,7 @@
   <connection>
    <sender>QuitMenuCommand</sender>
    <signal>triggered(bool)</signal>
-   <receiver>ICUMainWindow</receiver>
+   <receiver>MainWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
