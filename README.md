@@ -3,14 +3,14 @@
 > A modern replacement for the [_LEGO Island_](http://en.wikipedia.org/wiki/Lego_Island) CONFIG.EXE tool.
 
 ## Downloads ##
-_Forth coming._
+* All downloads are available on the [Releases](https://github.com/le717/ICU/releases) page.
 
 ## Contributing ##
-Contribution details are available in [CONTRIBUTING.md](CONTRIBUTING.md)
+Contribution details are available in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 # License #
 [MIT License](LICENSE)
 
-Created 2015 [Triangle717](http://le717.github.io)
+2015 [Triangle717](http://le717.github.io)
 
-Graphics created by [rioforce](http://rioforce.WordPress.com)
+Graphics by [rioforce](http://rioforce.WordPress.com)
