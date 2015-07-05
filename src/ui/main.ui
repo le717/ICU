@@ -3,9 +3,6 @@
  <author>Rioforce</author>
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
-  <property name="windowModality">
-   <enum>Qt::NonModal</enum>
-  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -27,11 +24,11 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Island Configuration Utility</string>
+   <string notr="true">app-name app-ver</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/Image/Icons/ICU.ico</normaloff>:/Image/Icons/ICU.ico</iconset>
+   <iconset resource="graphics.qrc">
+    <normaloff>:/src/ui/images/ICU.ico</normaloff>:/src/ui/images/ICU.ico</iconset>
   </property>
   <property name="toolTip">
    <string notr="true"/>
@@ -71,10 +68,7 @@
      <string notr="true">background-image: url(:/src/ui/images/Image.png);</string>
     </property>
     <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
+     <enum>QFrame::NoFrame</enum>
     </property>
    </widget>
    <widget class="QCheckBox" name="FullscreenCheck">
