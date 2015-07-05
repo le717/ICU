@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/src/ui">
+    <file>images/ICU.ico</file>
+    <file>images/Image.png</file>
+  </qresource>
+</RCC>
