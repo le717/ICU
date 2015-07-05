@@ -24,7 +24,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string notr="true">app-name app-ver</string>
+   <string>app-name app-ver</string>
   </property>
   <property name="windowIcon">
    <iconset resource="graphics.qrc">
@@ -199,7 +199,7 @@
      <rect>
       <x>350</x>
       <y>50</y>
-      <width>91</width>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
@@ -564,9 +564,9 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>40</y>
-      <width>91</width>
-      <height>88</height>
+      <y>30</y>
+      <width>106</width>
+      <height>111</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -642,10 +642,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>40</y>
-      <width>91</width>
-      <height>65</height>
+      <x>360</x>
+      <y>30</y>
+      <width>111</width>
+      <height>91</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
