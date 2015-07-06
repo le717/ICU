@@ -181,9 +181,9 @@
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>197</x>
-      <y>160</y>
-      <width>111</width>
+      <x>212</x>
+      <y>169</y>
+      <width>90</width>
       <height>20</height>
      </rect>
     </property>
@@ -197,8 +197,8 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>50</y>
+      <x>365</x>
+      <y>51</y>
       <width>101</width>
       <height>20</height>
      </rect>
@@ -499,8 +499,8 @@
      <rect>
       <x>198</x>
       <y>150</y>
-      <width>111</width>
-      <height>65</height>
+      <width>121</width>
+      <height>81</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
@@ -649,16 +649,6 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QLabel" name="TextureQuality">
-       <property name="styleSheet">
-        <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
      <item row="1" column="0">
       <widget class="QRadioButton" name="FastTexture">
        <property name="mouseTracking">
@@ -694,6 +684,16 @@
        </property>
        <property name="text">
         <string>High</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="TextureQuality">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
