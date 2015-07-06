@@ -3,7 +3,4 @@
     <file>images/ICU.ico</file>
     <file>images/Image.png</file>
   </qresource>
-  <qresource prefix="/src/ui">
-    <file>fonts/OpenSans-Regular.ttf</file>
-  </qresource>
 </RCC>
