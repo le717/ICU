@@ -80,13 +80,13 @@ and attach this file for an quicker fix!
     def runAsAdmin(self):
         """Check for and reload with administrator rights.
 
-        @returns {?Boolean} False if already running with
+        @returns {?Boolean} True if already running with
                             administrator rights, or the user
                             does not want to reload the program.
         """
         # The program is already being run with admin rights
         if ctypes.windll.shell32.IsUserAnAdmin() == 1:
-            return False
+            return True
 
         # Reload app
         logging.info("Reloading using RunAsAdmin")
