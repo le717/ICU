@@ -195,9 +195,6 @@
       <height>20</height>
      </rect>
     </property>
-    <property name="mouseTracking">
-     <bool>true</bool>
-    </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
     </property>
@@ -223,9 +220,6 @@
       <width>161</width>
       <height>22</height>
      </rect>
-    </property>
-    <property name="mouseTracking">
-     <bool>true</bool>
     </property>
     <item>
      <property name="text">
@@ -458,9 +452,6 @@
     <layout class="QGridLayout" name="gridLayout_3">
      <item row="2" column="0">
       <widget class="QRadioButton" name="SixteenBitColor">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -471,9 +462,6 @@
      </item>
      <item row="1" column="0">
       <widget class="QRadioButton" name="TwoFiveSixColor">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -519,9 +507,6 @@
      </item>
      <item row="2" column="0">
       <widget class="QRadioButton" name="FastModel">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -532,9 +517,6 @@
      </item>
      <item row="3" column="0">
       <widget class="QRadioButton" name="HighModel">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -545,9 +527,6 @@
      </item>
      <item row="1" column="0">
       <widget class="QRadioButton" name="LowModel">
-       <property name="mouseTracking">
-        <bool>false</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -570,9 +549,6 @@
     <layout class="QGridLayout" name="gridLayout_2">
      <item row="1" column="0">
       <widget class="QRadioButton" name="FastTexture">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -583,9 +559,6 @@
      </item>
      <item row="2" column="0">
       <widget class="QRadioButton" name="HighTexture">
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
