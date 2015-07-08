@@ -33,3 +33,4 @@ class Windower:
 
     def __disable(self):
         self.registry.writeKey("Full Screen", True, True)
+        return True

@@ -16,6 +16,7 @@ import subprocess
 from cx_Freeze import (setup, Executable)
 
 from src import constants as const
+# from Tools.bin import (copyfiles, runasadmin)
 
 # Only compile GUI on full build
 if sys.argv[1] == "build":
