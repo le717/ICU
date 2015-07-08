@@ -337,7 +337,7 @@
      <string>Draw Cursor</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="ResetSettings">
+   <widget class="QPushButton" name="btnReset">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -395,7 +395,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QPushButton" name="CloseWindow">
+   <widget class="QPushButton" name="btnClose">
     <property name="enabled">
      <bool>true</bool>
     </property>
@@ -641,11 +641,11 @@
    <zorder>Draw_to_Mem</zorder>
    <zorder>FlipVideo</zorder>
    <zorder>CursorCheck</zorder>
-   <zorder>ResetSettings</zorder>
+   <zorder>btnReset</zorder>
    <zorder>SaveDir</zorder>
    <zorder>savegame_label</zorder>
    <zorder>line_5</zorder>
-   <zorder>CloseWindow</zorder>
+   <zorder>btnClose</zorder>
    <zorder>line_6</zorder>
    <zorder>redirect</zorder>
    <zorder>BrowseSave</zorder>
@@ -666,33 +666,16 @@
     <property name="title">
      <string>&amp;File</string>
     </property>
-    <addaction name="actionReset_Configuration"/>
-    <addaction name="AboutMenuCommand"/>
+    <addaction name="actionReset"/>
+    <addaction name="actionAbout"/>
     <addaction name="separator"/>
-    <addaction name="QuitMenuCommand"/>
+    <addaction name="actionQuit"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
-  <action name="AboutMenuCommand">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="text">
-    <string>&amp;About</string>
-   </property>
-   <property name="toolTip">
-    <string>About ICU</string>
-   </property>
-   <property name="shortcut">
-    <string>F12</string>
-   </property>
-  </action>
-  <action name="QuitMenuCommand">
+  <action name="actionQuit">
    <property name="text">
     <string>&amp;Quit</string>
-   </property>
-   <property name="toolTip">
-    <string>Close Island Configuration Utility</string>
    </property>
    <property name="font">
     <font/>
@@ -701,9 +684,23 @@
     <string>Ctrl+Q</string>
    </property>
   </action>
-  <action name="actionReset_Configuration">
+  <action name="actionReset">
    <property name="text">
-    <string>&amp;Reset Configuration</string>
+    <string>&amp;Reset</string>
+   </property>
+   <property name="toolTip">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+   <property name="shortcut">
+    <string>F12</string>
    </property>
   </action>
  </widget>
@@ -725,44 +722,11 @@
   <tabstop>FlipVideo</tabstop>
   <tabstop>BrowseSave</tabstop>
   <tabstop>redirect</tabstop>
-  <tabstop>CloseWindow</tabstop>
-  <tabstop>ResetSettings</tabstop>
+  <tabstop>btnClose</tabstop>
+  <tabstop>btnReset</tabstop>
  </tabstops>
  <resources>
   <include location="graphics.qrc"/>
  </resources>
- <connections>
-  <connection>
-   <sender>CloseWindow</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>267</x>
-     <y>512</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>239</x>
-     <y>264</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>QuitMenuCommand</sender>
-   <signal>triggered(bool)</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>239</x>
-     <y>264</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

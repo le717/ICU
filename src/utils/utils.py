@@ -75,7 +75,6 @@ and attach this file for an quicker fix!
 #########################################
                                     """.format(const.APP_NAME, const.VERSION,
                                                const.CREATOR))
-        return True
 
     def runAsAdmin(self):
         """Check for and reload with administrator rights.
