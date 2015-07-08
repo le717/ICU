@@ -46,7 +46,7 @@
    <enum>QTabWidget::Rounded</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="BricksterImage">
+   <widget class="QFrame" name="imgBrkstr">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -141,7 +141,7 @@
      <string>3D Sound</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Display_Label">
+   <widget class="QLabel" name="lbDisplay">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -239,7 +239,7 @@
      </property>
     </item>
    </widget>
-   <widget class="QLabel" name="Advanced_Label">
+   <widget class="QLabel" name="lbAdvanced">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -252,7 +252,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Advanced Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="DirectDevices">
+   <widget class="QLabel" name="lbDirect3D">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -344,7 +344,7 @@
      <string>Reset</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="SaveDir">
+   <widget class="QLineEdit" name="leSaveDir">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -360,7 +360,7 @@
      <string>C:\Program Files\LEGO Island</string>
     </property>
    </widget>
-   <widget class="QLabel" name="savegame_label">
+   <widget class="QLabel" name="lbSaveLoc">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -421,7 +421,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QPushButton" name="redirect">
+   <widget class="QPushButton" name="btnRedirect">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -576,7 +576,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QToolButton" name="BrowseSave">
+   <widget class="QToolButton" name="btnBrowse">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -594,31 +594,31 @@
    </widget>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
-   <zorder>BricksterImage</zorder>
+   <zorder>imgBrkstr</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>FullscreenCheck</zorder>
    <zorder>MusicCheck</zorder>
    <zorder>JoyCheck</zorder>
    <zorder>SoundCheck</zorder>
-   <zorder>Display_Label</zorder>
+   <zorder>lbDisplay</zorder>
    <zorder>line</zorder>
    <zorder>line_2</zorder>
    <zorder>line_3</zorder>
    <zorder>line_4</zorder>
    <zorder>Emulation</zorder>
-   <zorder>Advanced_Label</zorder>
-   <zorder>DirectDevices</zorder>
+   <zorder>lbAdvanced</zorder>
+   <zorder>lbDirect3D</zorder>
    <zorder>Draw_to_Mem</zorder>
    <zorder>FlipVideo</zorder>
    <zorder>CursorCheck</zorder>
    <zorder>btnReset</zorder>
-   <zorder>SaveDir</zorder>
-   <zorder>savegame_label</zorder>
+   <zorder>leSaveDir</zorder>
+   <zorder>lbSaveLoc</zorder>
    <zorder>line_5</zorder>
    <zorder>btnClose</zorder>
    <zorder>line_6</zorder>
-   <zorder>redirect</zorder>
-   <zorder>BrowseSave</zorder>
+   <zorder>btnRedirect</zorder>
+   <zorder>btnBrowse</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -690,8 +690,8 @@
   <tabstop>Emulation</tabstop>
   <tabstop>Draw_to_Mem</tabstop>
   <tabstop>FlipVideo</tabstop>
-  <tabstop>BrowseSave</tabstop>
-  <tabstop>redirect</tabstop>
+  <tabstop>btnBrowse</tabstop>
+  <tabstop>btnRedirect</tabstop>
   <tabstop>btnClose</tabstop>
   <tabstop>btnReset</tabstop>
  </tabstops>
