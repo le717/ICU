@@ -30,9 +30,6 @@
    <iconset resource="graphics.qrc">
     <normaloff>:/src/ui/images/ICU.ico</normaloff>:/src/ui/images/ICU.ico</iconset>
   </property>
-  <property name="toolTip">
-   <string notr="true"/>
-  </property>
   <property name="accessibleName">
    <string>ICU Main Window</string>
   </property>
@@ -61,9 +58,6 @@
       <height>450</height>
      </rect>
     </property>
-    <property name="toolTip">
-     <string/>
-    </property>
     <property name="styleSheet">
      <string notr="true">background-image: url(:/src/ui/images/Image.png);</string>
     </property>
@@ -79,9 +73,6 @@
       <width>81</width>
       <height>21</height>
      </rect>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Play in Fullscreen Mode (&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#000000;&quot;&gt;Note:&lt;/span&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt; Windowed Mode overwrites other config options and may make LEGO Island unstable)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -105,9 +96,6 @@
       <height>21</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Toggle in-game music&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -127,9 +115,6 @@
       <height>21</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Play LEGO Island with a Joystick or Keyboard&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -148,9 +133,6 @@
       <width>81</width>
       <height>21</height>
      </rect>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Toggle 2D and 3D sound&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -187,9 +169,6 @@
       <height>20</height>
      </rect>
     </property>
-    <property name="toolTip">
-     <string/>
-    </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
     </property>
@@ -219,9 +198,6 @@
     <property name="mouseTracking">
      <bool>true</bool>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
     </property>
@@ -250,12 +226,6 @@
     </property>
     <property name="mouseTracking">
      <bool>true</bool>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
-    <property name="toolTip">
-     <string/>
     </property>
     <item>
      <property name="text">
@@ -319,9 +289,6 @@
       <height>21</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Set 3D elements to run on Graphics Memory rather than CPU???&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -340,9 +307,6 @@
       <width>181</width>
       <height>21</height>
      </rect>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Flip Surfaces??&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -363,9 +327,6 @@
       <height>21</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Use LEGO Island's built-in cursor&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -385,9 +346,6 @@
       <height>23</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Reset all settings to Default&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -403,9 +361,6 @@
       <width>161</width>
       <height>21</height>
      </rect>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Current Save Game path&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -484,9 +439,6 @@
       <height>23</height>
      </rect>
     </property>
-    <property name="focusPolicy">
-     <enum>Qt::TabFocus</enum>
-    </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;ReDirect current game saves to new location&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -509,14 +461,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>High Color (16bit)</string>
@@ -528,14 +474,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>256 Color</string>
@@ -544,9 +484,6 @@
      </item>
      <item row="0" column="0">
       <widget class="QLabel" name="ColorPalette">
-       <property name="toolTip">
-        <string/>
-       </property>
        <property name="accessibleName">
         <string>Color Palette</string>
        </property>
@@ -585,14 +522,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>Fast</string>
@@ -604,14 +535,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>High</string>
@@ -623,14 +548,8 @@
        <property name="mouseTracking">
         <bool>false</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>Low</string>
@@ -654,14 +573,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>Fast</string>
@@ -673,14 +586,8 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
        </property>
        <property name="text">
         <string>High</string>
@@ -753,9 +660,6 @@
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
-    <property name="toolTip">
-     <string/>
-    </property>
     <property name="accessibleName">
      <string>File Menu</string>
     </property>
