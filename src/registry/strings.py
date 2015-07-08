@@ -55,7 +55,7 @@ class Registry:
         """
         if key in self.regStrNames:
             return True
-        raise KeyError("Value '{0}' is not a valid registry key!".format(
+        raise KeyError("Key '{0}' is not a valid registry entry!".format(
                        key))
 
     def readKey(self, key, convertBool=False):
