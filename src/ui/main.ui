@@ -59,7 +59,7 @@
      <enum>QFrame::NoFrame</enum>
     </property>
    </widget>
-   <widget class="QCheckBox" name="FullscreenCheck">
+   <widget class="QCheckBox" name="chkFullscreen">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -81,7 +81,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QCheckBox" name="MusicCheck">
+   <widget class="QCheckBox" name="chkMusic">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -100,7 +100,7 @@
      <string notr="true">Music</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="JoyCheck">
+   <widget class="QCheckBox" name="chkJoystick">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -119,7 +119,7 @@
      <string notr="true">Use Joystick</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="SoundCheck">
+   <widget class="QCheckBox" name="chkSound">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -206,7 +206,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QComboBox" name="Emulation">
+   <widget class="QComboBox" name="comboD3D">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -268,7 +268,7 @@
      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Direct3D Devices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="Draw_to_Mem">
+   <widget class="QCheckBox" name="chkDraw3D">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -287,7 +287,7 @@
      <string notr="true">Draw 3D to Video Memory</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="FlipVideo">
+   <widget class="QCheckBox" name="chkFlipVideo">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -306,7 +306,7 @@
      <string notr="true">Flip Video Memory Pages</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="CursorCheck">
+   <widget class="QCheckBox" name="chkCursor">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -590,21 +590,21 @@
    <zorder>layoutWidget</zorder>
    <zorder>imgBrkstr</zorder>
    <zorder>layoutWidget</zorder>
-   <zorder>FullscreenCheck</zorder>
-   <zorder>MusicCheck</zorder>
-   <zorder>JoyCheck</zorder>
-   <zorder>SoundCheck</zorder>
+   <zorder>chkFullscreen</zorder>
+   <zorder>chkMusic</zorder>
+   <zorder>chkJoystick</zorder>
+   <zorder>chkSound</zorder>
    <zorder>lbDisplay</zorder>
    <zorder>line</zorder>
    <zorder>line_2</zorder>
    <zorder>line_3</zorder>
    <zorder>line_4</zorder>
-   <zorder>Emulation</zorder>
+   <zorder>comboD3D</zorder>
    <zorder>lbAdvanced</zorder>
    <zorder>lbDirect3D</zorder>
-   <zorder>Draw_to_Mem</zorder>
-   <zorder>FlipVideo</zorder>
-   <zorder>CursorCheck</zorder>
+   <zorder>chkDraw3D</zorder>
+   <zorder>chkFlipVideo</zorder>
+   <zorder>chkCursor</zorder>
    <zorder>btnReset</zorder>
    <zorder>leSaveDir</zorder>
    <zorder>lbSaveLoc</zorder>
@@ -673,14 +673,14 @@
   <tabstop>HighTexture</tabstop>
   <tabstop>TwoFiveSixColor</tabstop>
   <tabstop>SixteenBitColor</tabstop>
-  <tabstop>MusicCheck</tabstop>
-  <tabstop>FullscreenCheck</tabstop>
-  <tabstop>JoyCheck</tabstop>
-  <tabstop>CursorCheck</tabstop>
-  <tabstop>SoundCheck</tabstop>
-  <tabstop>Emulation</tabstop>
-  <tabstop>Draw_to_Mem</tabstop>
-  <tabstop>FlipVideo</tabstop>
+  <tabstop>chkMusic</tabstop>
+  <tabstop>chkFullscreen</tabstop>
+  <tabstop>chkJoystick</tabstop>
+  <tabstop>chkCursor</tabstop>
+  <tabstop>chkSound</tabstop>
+  <tabstop>comboD3D</tabstop>
+  <tabstop>chkDraw3D</tabstop>
+  <tabstop>chkFlipVideo</tabstop>
   <tabstop>btnBrowse</tabstop>
   <tabstop>btnRedirect</tabstop>
   <tabstop>btnClose</tabstop>
