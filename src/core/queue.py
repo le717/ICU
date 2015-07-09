@@ -15,6 +15,12 @@ class ActionsQueue:
     def __init__(self):
         self.queue = []
 
+
+class Responses:
+
+    def __init__(self):
+        pass
+
     # Normal buttons
     def btnBrowse(self, val):
         print(val)
