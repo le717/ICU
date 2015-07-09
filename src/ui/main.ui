@@ -259,7 +259,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Set the Direct3D device the game should use.&lt;br&gt;Ramp Emulation is highly recommended for maximum compatibility.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Set the Direct3D device the game should use.&lt;br&gt;Ramp Emulation is highly recommended for maximum compatibility.</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -447,7 +447,7 @@
      <item row="2" column="0">
       <widget class="QRadioButton" name="radioColor16b">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">Select a color depth</string>
        </property>
        <property name="text">
         <string notr="true">High Color (16bit)</string>
@@ -457,7 +457,7 @@
      <item row="1" column="0">
       <widget class="QRadioButton" name="radioColor256">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">Select a color depth</string>
        </property>
        <property name="text">
         <string notr="true">256 Color</string>
@@ -499,7 +499,7 @@
      <item row="2" column="0">
       <widget class="QRadioButton" name="radioModelFast">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">3D Model Quality</string>
        </property>
        <property name="text">
         <string notr="true">Fast</string>
@@ -509,7 +509,7 @@
      <item row="3" column="0">
       <widget class="QRadioButton" name="radioModelHigh">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">3D Model Quality</string>
        </property>
        <property name="text">
         <string notr="true">High</string>
@@ -519,7 +519,7 @@
      <item row="1" column="0">
       <widget class="QRadioButton" name="radioModelLow">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">3D Model Quality</string>
        </property>
        <property name="text">
         <string notr="true">Low</string>
@@ -541,7 +541,7 @@
      <item row="1" column="0">
       <widget class="QRadioButton" name="radioTexFast">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">Texture Quality</string>
        </property>
        <property name="text">
         <string notr="true">Fast</string>
@@ -551,7 +551,7 @@
      <item row="2" column="0">
       <widget class="QRadioButton" name="radioTexHigh">
        <property name="toolTip">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>Texture Quality</string>
        </property>
        <property name="text">
         <string notr="true">High</string>
