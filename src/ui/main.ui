@@ -69,7 +69,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Play in Fullscreen Mode (&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#000000;&quot;&gt;Note:&lt;/span&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt; Windowed Mode overwrites other config options and may make LEGO Island unstable)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Play in Fullscreen Mode (&lt;span style=&quot;font-weight:600;&quot;&gt;Note:&lt;/span&gt; Windowed Mode overwrites other config options and may make LEGO Island unstable)</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -91,7 +91,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Toggle in-game music&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Toggle in-game music</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -110,7 +110,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Play LEGO Island with a Joystick or Keyboard&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Play using a joystick or keyboard</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -129,7 +129,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Toggle 2D and 3D sound&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Toggle between 2D and 3D sound</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -278,7 +278,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Set 3D elements to run on Graphics Memory rather than CPU???&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Set 3D elements to run on Graphics Memory rather than CPU?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -316,7 +316,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Use LEGO Island's built-in cursor&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Use in-game cursor</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
