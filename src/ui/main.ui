@@ -78,7 +78,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Fullscreen</string>
+     <string notr="true">Fullscreen</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -100,7 +100,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Music</string>
+     <string notr="true">Music</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="JoyCheck">
@@ -119,7 +119,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Use Joystick</string>
+     <string notr="true">Use Joystick</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="SoundCheck">
@@ -138,7 +138,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>3D Sound</string>
+     <string notr="true">3D Sound</string>
     </property>
    </widget>
    <widget class="QLabel" name="lbDisplay">
@@ -154,7 +154,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Display Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Display Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="Line" name="line">
@@ -220,22 +220,22 @@
     </property>
     <item>
      <property name="text">
-      <string>Ramp Emulation</string>
+      <string notr="true">Ramp Emulation</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>RGB Emulation</string>
+      <string notr="true">RGB Emulation</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Direct3D HAL</string>
+      <string notr="true">Direct3D HAL</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>MMX Emulation</string>
+      <string notr="true">MMX Emulation</string>
      </property>
     </item>
    </widget>
@@ -249,7 +249,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Advanced Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Advanced Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="lbDirect3D">
@@ -268,7 +268,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Direct3D Devices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Direct3D Devices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="Draw_to_Mem">
@@ -287,7 +287,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Draw 3D to Video Memory</string>
+     <string notr="true">Draw 3D to Video Memory</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="FlipVideo">
@@ -306,7 +306,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Flip Video Memory Pages</string>
+     <string notr="true">Flip Video Memory Pages</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="CursorCheck">
@@ -325,7 +325,7 @@
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Draw Cursor</string>
+     <string notr="true">Draw Cursor</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnReset">
@@ -341,7 +341,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Reset all settings to Default&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>Reset</string>
+     <string notr="true">Reset</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="leSaveDir">
@@ -356,8 +356,8 @@
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Current Save Game path&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
-    <property name="text">
-     <string>C:\Program Files\LEGO Island</string>
+    <property name="placeholderText">
+     <string notr="true">C:\Program Files\LEGO Island</string>
     </property>
    </widget>
    <widget class="QLabel" name="lbSaveLoc">
@@ -370,7 +370,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Save Game Location&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Save Game Location&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="Line" name="line_5">
@@ -402,7 +402,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;color: black;&quot;&gt;Save Changes and Exit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>Close</string>
+     <string notr="true">Close</string>
     </property>
     <property name="flat">
      <bool>false</bool>
@@ -434,7 +434,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;ReDirect current game saves to new location&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>ReDirect</string>
+     <string notr="true">ReDirect</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -453,7 +453,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>High Color (16bit)</string>
+        <string notr="true">High Color (16bit)</string>
        </property>
       </widget>
      </item>
@@ -463,7 +463,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>256 Color</string>
+        <string notr="true">256 Color</string>
        </property>
       </widget>
      </item>
@@ -476,7 +476,7 @@
         <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Color Palette&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Color Palette&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -498,7 +498,7 @@
         <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -508,7 +508,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>Fast</string>
+        <string notr="true">Fast</string>
        </property>
       </widget>
      </item>
@@ -518,7 +518,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>High</string>
+        <string notr="true">High</string>
        </property>
       </widget>
      </item>
@@ -528,7 +528,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>Low</string>
+        <string notr="true">Low</string>
        </property>
       </widget>
      </item>
@@ -550,7 +550,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>Fast</string>
+        <string notr="true">Fast</string>
        </property>
       </widget>
      </item>
@@ -560,7 +560,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string>High</string>
+        <string notr="true">High</string>
        </property>
       </widget>
      </item>
@@ -589,7 +589,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;color: black;&quot;&gt;Browse&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>...</string>
+     <string notr="true">...</string>
     </property>
    </widget>
    <zorder>layoutWidget</zorder>

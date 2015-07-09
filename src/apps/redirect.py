@@ -24,6 +24,11 @@ class ReDirect:
         self.curPath = self.registry.readKey("savepath")
         self.newPath = newPath.replace("/", "\\")
 
+        # Make sure the paths are different
+        # TODO Display a message
+        if self.curPath.lower() == self.newPath.lower():
+            return False
+
         # Make sure the new path exists
         if not os.path.exists(self.newPath):
             os.makedirs(self.newPath)
