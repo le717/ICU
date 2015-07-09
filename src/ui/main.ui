@@ -24,7 +24,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>app-name app-ver</string>
+   <string notr="true">app-name app-ver</string>
   </property>
   <property name="windowIcon">
    <iconset resource="graphics.qrc">
@@ -146,9 +146,6 @@
       <width>141</width>
       <height>31</height>
      </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Display Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -278,7 +275,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Set 3D elements to run on Graphics Memory rather than CPU?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">TODO Correct me&lt;br&gt;Set 3D elements to run on the GPU rather than the CPU?</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -297,7 +294,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Flip Surfaces??&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">TODO Write me</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -334,9 +331,6 @@
       <height>23</height>
      </rect>
     </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot; font-size:9pt; color:#000000;&quot;&gt;Reset all settings to Default&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
     <property name="text">
      <string notr="true">Reset</string>
     </property>
@@ -351,7 +345,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Current Save Game path&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Current Save Game path</string>
     </property>
     <property name="placeholderText">
      <string notr="true">C:\Program Files\LEGO Island</string>
@@ -395,9 +389,6 @@
       <height>23</height>
      </rect>
     </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;color: black;&quot;&gt;Save Changes and Exit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
     <property name="text">
      <string notr="true">Close</string>
     </property>
@@ -428,7 +419,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;ReDirect current game saves to new location&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">ReDirect current game saves to new location</string>
     </property>
     <property name="text">
      <string notr="true">ReDirect</string>
@@ -551,7 +542,7 @@
      <item row="2" column="0">
       <widget class="QRadioButton" name="radioTexHigh">
        <property name="toolTip">
-        <string>Texture Quality</string>
+        <string notr="true">Texture Quality</string>
        </property>
        <property name="text">
         <string notr="true">High</string>
@@ -580,7 +571,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;color: black;&quot;&gt;Browse&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string notr="true">Browse</string>
     </property>
     <property name="text">
      <string notr="true">...</string>
