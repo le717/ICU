@@ -154,7 +154,7 @@
      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Display Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="Line" name="line">
+   <widget class="Line" name="line3">
     <property name="geometry">
      <rect>
       <x>212</x>
@@ -167,7 +167,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_2">
+   <widget class="Line" name="line2">
     <property name="geometry">
      <rect>
       <x>365</x>
@@ -180,7 +180,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_3">
+   <widget class="Line" name="line1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -193,7 +193,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_4">
+   <widget class="Line" name="line4">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -370,7 +370,7 @@
      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Save Game Location&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="Line" name="line_5">
+   <widget class="Line" name="line5">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -405,7 +405,7 @@
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="Line" name="line_6">
+   <widget class="Line" name="line6">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -595,10 +595,10 @@
    <zorder>chkJoystick</zorder>
    <zorder>chkSound</zorder>
    <zorder>lbDisplay</zorder>
-   <zorder>line</zorder>
-   <zorder>line_2</zorder>
-   <zorder>line_3</zorder>
-   <zorder>line_4</zorder>
+   <zorder>line3</zorder>
+   <zorder>line2</zorder>
+   <zorder>line1</zorder>
+   <zorder>line4</zorder>
    <zorder>comboD3D</zorder>
    <zorder>lbAdvanced</zorder>
    <zorder>lbDirect3D</zorder>
@@ -608,9 +608,9 @@
    <zorder>btnReset</zorder>
    <zorder>leSaveDir</zorder>
    <zorder>lbSaveLoc</zorder>
-   <zorder>line_5</zorder>
+   <zorder>line5</zorder>
    <zorder>btnClose</zorder>
-   <zorder>line_6</zorder>
+   <zorder>line6</zorder>
    <zorder>btnRedirect</zorder>
    <zorder>btnBrowse</zorder>
   </widget>
