@@ -443,9 +443,9 @@
       <height>81</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_3">
+    <layout class="QGridLayout" name="gridColors">
      <item row="2" column="0">
-      <widget class="QRadioButton" name="SixteenBitColor">
+      <widget class="QRadioButton" name="radioColor16b">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -455,7 +455,7 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QRadioButton" name="TwoFiveSixColor">
+      <widget class="QRadioButton" name="radioColor256">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style=&quot;font-size:9pt; color:#000000;&quot;&gt;Select a color depth&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -465,7 +465,7 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="ColorPalette">
+      <widget class="QLabel" name="lbColorPal">
        <property name="styleSheet">
         <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
        </property>
@@ -485,9 +485,9 @@
       <height>111</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
+    <layout class="QGridLayout" name="gridModelQual">
      <item row="0" column="0">
-      <widget class="QLabel" name="ModelQuality">
+      <widget class="QLabel" name="lbModelQual">
        <property name="styleSheet">
         <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
        </property>
@@ -497,7 +497,7 @@
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QRadioButton" name="FastModel">
+      <widget class="QRadioButton" name="radioModelFast">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -507,7 +507,7 @@
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QRadioButton" name="HighModel">
+      <widget class="QRadioButton" name="radioModelHigh">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -517,7 +517,7 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QRadioButton" name="LowModel">
+      <widget class="QRadioButton" name="radioModelLow">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;3D Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -537,9 +537,9 @@
       <height>91</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2">
+    <layout class="QGridLayout" name="gridTexQual">
      <item row="1" column="0">
-      <widget class="QRadioButton" name="FastTexture">
+      <widget class="QRadioButton" name="radioTexFast">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -549,7 +549,7 @@
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QRadioButton" name="HighTexture">
+      <widget class="QRadioButton" name="radioTexHigh">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#000000;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -559,7 +559,7 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="TextureQuality">
+      <widget class="QLabel" name="lbTextureQual">
        <property name="styleSheet">
         <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
        </property>
@@ -666,13 +666,13 @@
   </action>
  </widget>
  <tabstops>
-  <tabstop>LowModel</tabstop>
-  <tabstop>FastModel</tabstop>
-  <tabstop>HighModel</tabstop>
-  <tabstop>FastTexture</tabstop>
-  <tabstop>HighTexture</tabstop>
-  <tabstop>TwoFiveSixColor</tabstop>
-  <tabstop>SixteenBitColor</tabstop>
+  <tabstop>radioModelLow</tabstop>
+  <tabstop>radioModelFast</tabstop>
+  <tabstop>radioModelHigh</tabstop>
+  <tabstop>radioTexFast</tabstop>
+  <tabstop>radioTexHigh</tabstop>
+  <tabstop>radioColor256</tabstop>
+  <tabstop>radioColor16b</tabstop>
   <tabstop>chkMusic</tabstop>
   <tabstop>chkFullscreen</tabstop>
   <tabstop>chkJoystick</tabstop>
