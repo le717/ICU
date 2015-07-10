@@ -10,7 +10,7 @@ Licensed under The MIT License
 """
 
 
-from src.registry.strings import Registry
+from src.core.registry import Registry
 
 __all__ = ("Windower")
 
