@@ -41,7 +41,7 @@ class Registry:
                                     and vice-versa for Boolean values.
         @return {Boolean|String}
         """
-        if type(val) == str:
+        if type(val) == str and (val in ("YES", "NO")):
             val = (True if val == "YES" else False)
         elif type(val) == bool:
             val = ("YES" if val else "NO")
