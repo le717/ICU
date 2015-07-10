@@ -15,19 +15,19 @@ class ActionsQueue:
     def __init__(self):
         self.queue = []
 
-        # Check if group of vals or just one
-            # Perform routine in loop if needed
-
-        # Check type for presence in queue, flag result & index
-
-        # Check if val == registry from onload cache
-            # if true return
-
-        # Check if already present in queue
-            # If true and val !== queue
-                    # Update index with new val
-            # Else if false
-                    # Add val to queue at end
+#        # Check if group of vals or just one
+#            # Perform routine in loop if needed
+#
+#        # Check type for presence in queue, flag result & index
+#
+#        # Check if val == registry from onload cache
+#            # if true return
+#
+#        # Check if already present in queue
+#            # If true and val !== queue
+#                    # Update index with new val
+#            # Else if false
+#                    # Add val to queue at end
 
 
 class Responses:

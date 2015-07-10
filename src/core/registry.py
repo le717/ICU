@@ -23,13 +23,13 @@ class Registry:
         self.folPath = ("SOFTWARE\Wow6432Node\Mindscape\LEGO Island"
                         if platform.machine() == "AMD64"
                         else "SOFTWARE\Mindscape\LEGO Island")
-        self.regStrNames = ("3D Device Name", "3DSound",
-                            "Back Buffers in Video RAM", "Display Bit Depth",
-                            "Draw Cursor", "Flip Surfaces", "Full Screen",
-                            "Island Quality", "Island Texture",
-                            "JoystickIndex", "Music", "UseJoystick",
-                            "Wide View Angle", "diskpath", "moviespath",
-                            "savepath")
+        self.keyNames = ("3D Device Name", "3DSound",
+                         "Back Buffers in Video RAM", "Display Bit Depth",
+                         "Draw Cursor", "Flip Surfaces", "Full Screen",
+                         "Island Quality", "Island Texture",
+                         "Music", "savepath", "UseJoystick",
+                         "Wide View Angle")
+        self.otherKeyNames = ("diskpath", "JoystickIndex", "moviespath")
 
     @staticmethod
     def __convertBool(val):
@@ -53,7 +53,7 @@ class Registry:
         @param {String} key Key name to validate.
         @return {!Boolean} True if valid, KeyError thrown otherwise.
         """
-        if key in self.regStrNames:
+        if key in self.keyNames:
             return True
         raise KeyError("Key '{0}' is not a valid registry entry!".format(
                        key))
