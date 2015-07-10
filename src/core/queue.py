@@ -12,8 +12,9 @@ Licensed under The MIT License
 
 class ActionsQueue:
 
-    def __init__(self):
+    def __init__(self, onload):
         self.queue = []
+        self.onload = onload
 
     def add(self, *actions):
         for action in actions:
@@ -24,7 +25,12 @@ class ActionsQueue:
                 if item["name"] == action["name"]:
                     exists = (True, self.queue.index(item))
 
-            # TODO Registry onload check here
+            # This change is already present in the registry,
+            # Remove it from the queue
+            for item in self.onload:
+                if item == action:
+                    del self.queue[exists[1]]
+                    return False
 
             # Change is already pending, update the existing entry
             if exists[0] and (action["val"] != self.queue[exists[1]]["val"]):
@@ -33,17 +39,3 @@ class ActionsQueue:
             # Change is not aleady pending, add to the queue
             elif not exists[0]:
                 self.queue.append(action)
-
-#        # Check if group of vals or just one
-#            # Perform routine in loop if needed
-#
-#        # Check type for presence in queue, flag result & index
-#
-#        # Check if val == registry from onload cache
-#            # if true return
-#
-#        # Check if already present in queue
-#            # If true and val != queue
-#                    # Update index with new val
-#            # Else if false
-#                    # Add val to queue at end
