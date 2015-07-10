@@ -29,7 +29,8 @@ class ActionsQueue:
             # Remove it from the queue
             for item in self.__onload:
                 if item == action:
-                    del self.queue[exists[1]]
+                    if exists[0]:
+                        del self.queue[exists[1]]
                     return False
 
             # Change is already pending, update the existing entry
@@ -39,3 +40,6 @@ class ActionsQueue:
             # Change is not aleady pending, add to the queue
             elif not exists[0]:
                 self.queue.append(action)
+
+    def clear(self):
+        self.queue = []
