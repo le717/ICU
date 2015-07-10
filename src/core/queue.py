@@ -15,6 +15,28 @@ class ActionsQueue:
     def __init__(self):
         self.queue = []
 
+    def add(self, action):
+        for key in action:
+            exists = (False,)
+
+            # This option is already in the queue
+            for item in self.queue:
+                if item["name"] == key["name"]:
+                    print("Exists")
+                    exists = (True, self.queue.index(item))
+
+            # TODO Registry onload check here
+
+            # Change is already pending, update the existing entry
+            if exists[0] and (key["val"] != self.queue[exists[1]]["val"]):
+                print("Update")
+                self.queue[exists[1]] = key
+
+            # Change is not aleady pending, add to the queue
+            elif not exists[0]:
+                print("Add")
+                self.queue.append(key)
+
 #        # Check if group of vals or just one
 #            # Perform routine in loop if needed
 #
@@ -24,7 +46,7 @@ class ActionsQueue:
 #            # if true return
 #
 #        # Check if already present in queue
-#            # If true and val !== queue
+#            # If true and val != queue
 #                    # Update index with new val
 #            # Else if false
 #                    # Add val to queue at end
@@ -34,6 +56,13 @@ class Responses:
 
     def __init__(self):
         pass
+
+    @staticmethod
+    def __makeAction(name, val):
+        return ({
+            "name": name,
+            "val": val
+        },)
 
     # Mass actions
     def actionApply(self, val):
