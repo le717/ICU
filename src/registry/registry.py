@@ -23,13 +23,13 @@ class Registry:
         self.folPath = ("SOFTWARE\Wow6432Node\Mindscape\LEGO Island"
                         if platform.machine() == "AMD64"
                         else "SOFTWARE\Mindscape\LEGO Island")
+        self.otherKeyNames = ("diskpath", "JoystickIndex", "moviespath")
         self.keyNames = ("3D Device Name", "3DSound",
                          "Back Buffers in Video RAM", "Display Bit Depth",
                          "Draw Cursor", "Flip Surfaces", "Full Screen",
                          "Island Quality", "Island Texture",
                          "Music", "savepath", "UseJoystick",
                          "Wide View Angle")
-        self.otherKeyNames = ("diskpath", "JoystickIndex", "moviespath")
 
     @staticmethod
     def __convertBool(val):
