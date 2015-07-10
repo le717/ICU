@@ -95,3 +95,7 @@ class Registry:
                                     self.folPath) as r:
                 winreg.SetValueEx(r, key, 0, winreg.REG_SZ, val)
             return True
+
+    def readAll(self):
+        for key in self.keyNames:
+            yield (key, self.readKey(key, True))
