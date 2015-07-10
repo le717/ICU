@@ -14,7 +14,7 @@ class ActionsQueue:
 
     def __init__(self, onload):
         self.queue = []
-        self.onload = onload
+        self.__onload = onload
 
     def add(self, *actions):
         for action in actions:
@@ -27,7 +27,7 @@ class ActionsQueue:
 
             # This change is already present in the registry,
             # Remove it from the queue
-            for item in self.onload:
+            for item in self.__onload:
                 if item == action:
                     del self.queue[exists[1]]
                     return False
