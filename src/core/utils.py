@@ -37,6 +37,9 @@ class Utils:
 
     def __init__(self):
         """Initalize public properties and run utility functions."""
+        pass
+
+    def logger(self):
         # Define the log location
         path = os.path.join(os.path.expandvars("%AppData%"),
                             const.CREATOR, const.APP_NAME)
@@ -75,6 +78,7 @@ and attach this file for an quicker fix!
 #########################################
                                     """.format(const.APP_NAME, const.VERSION,
                                                const.CREATOR))
+        return True
 
     def runAsAdmin(self):
         """Check for and reload with administrator rights.
