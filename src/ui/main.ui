@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>530</height>
+    <width>472</width>
+    <height>488</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>480</width>
-    <height>530</height>
+    <width>472</width>
+    <height>488</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>480</width>
-    <height>530</height>
+    <width>472</width>
+    <height>488</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -46,7 +46,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
+      <y>10</y>
       <width>168</width>
       <height>450</height>
      </rect>
@@ -58,23 +58,23 @@
      <enum>QFrame::NoFrame</enum>
     </property>
    </widget>
-   <widget class="QCheckBox" name="chkFullscreen">
+   <widget class="QCheckBox" name="chkWindowed">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>160</y>
+      <x>340</x>
+      <y>140</y>
       <width>81</width>
       <height>21</height>
      </rect>
     </property>
     <property name="toolTip">
-     <string notr="true">Play in Fullscreen Mode (&lt;span style=&quot;font-weight:600;&quot;&gt;Note:&lt;/span&gt; Windowed Mode overwrites other config options and may make LEGO Island unstable)</string>
+     <string notr="true">Enable Windowed Mode (&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; Windowed Mode overwrites other config options and may make LEGO Island unstable.)</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string notr="true">Fullscreen</string>
+     <string notr="true">Windowed</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -83,8 +83,8 @@
    <widget class="QCheckBox" name="chkMusic">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>140</y>
+      <x>340</x>
+      <y>100</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -102,14 +102,14 @@
    <widget class="QCheckBox" name="chkJoystick">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>180</y>
+      <x>340</x>
+      <y>200</y>
       <width>91</width>
       <height>21</height>
      </rect>
     </property>
     <property name="toolTip">
-     <string notr="true">Play using a joystick or keyboard</string>
+     <string notr="true">Enable joystick support</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -121,8 +121,8 @@
    <widget class="QCheckBox" name="chkSound">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>220</y>
+      <x>340</x>
+      <y>120</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -140,7 +140,7 @@
    <widget class="QLabel" name="lbDisplay">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>250</x>
       <y>0</y>
       <width>141</width>
       <height>31</height>
@@ -150,50 +150,11 @@
      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Display Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="Line" name="line3">
-    <property name="geometry">
-     <rect>
-      <x>212</x>
-      <y>169</y>
-      <width>90</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line2">
-    <property name="geometry">
-     <rect>
-      <x>365</x>
-      <y>51</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line1">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>50</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="Line" name="line4">
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>250</y>
+      <y>220</y>
       <width>281</width>
       <height>20</height>
      </rect>
@@ -206,7 +167,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>320</y>
+      <y>280</y>
       <width>161</width>
       <height>22</height>
      </rect>
@@ -236,7 +197,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>260</y>
+      <y>230</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -249,7 +210,7 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>300</y>
+      <y>260</y>
       <width>111</width>
       <height>17</height>
      </rect>
@@ -268,7 +229,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>350</y>
+      <y>310</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -287,7 +248,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>370</y>
+      <y>330</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -305,14 +266,14 @@
    <widget class="QCheckBox" name="chkCursor">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>200</y>
+      <x>340</x>
+      <y>180</y>
       <width>101</width>
       <height>21</height>
      </rect>
     </property>
     <property name="toolTip">
-     <string notr="true">Use in-game cursor</string>
+     <string notr="true">Use in-game mouse cursor</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
@@ -325,7 +286,7 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>480</y>
+      <y>430</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -338,7 +299,7 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>440</y>
+      <y>390</y>
       <width>161</width>
       <height>21</height>
      </rect>
@@ -354,7 +315,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>400</y>
+      <y>360</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -367,7 +328,7 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>390</y>
+      <y>350</y>
       <width>281</width>
       <height>20</height>
      </rect>
@@ -383,7 +344,7 @@
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>480</y>
+      <y>430</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -399,7 +360,7 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>460</y>
+      <y>410</y>
       <width>281</width>
       <height>20</height>
      </rect>
@@ -412,7 +373,7 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>440</y>
+      <y>390</y>
       <width>61</width>
       <height>23</height>
      </rect>
@@ -424,147 +385,11 @@
      <string notr="true">ReDirect</string>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>198</x>
-      <y>150</y>
-      <width>121</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridColors">
-     <item row="2" column="0">
-      <widget class="QRadioButton" name="radioColor16b">
-       <property name="toolTip">
-        <string notr="true">Select a color depth</string>
-       </property>
-       <property name="text">
-        <string notr="true">High Color (16bit)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QRadioButton" name="radioColor256">
-       <property name="toolTip">
-        <string notr="true">Select a color depth</string>
-       </property>
-       <property name="text">
-        <string notr="true">256 Color</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="lbColorPal">
-       <property name="styleSheet">
-        <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Color Palette&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>30</y>
-      <width>106</width>
-      <height>111</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridModelQual">
-     <item row="0" column="0">
-      <widget class="QLabel" name="lbModelQual">
-       <property name="styleSheet">
-        <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QRadioButton" name="radioModelFast">
-       <property name="toolTip">
-        <string notr="true">3D Model Quality</string>
-       </property>
-       <property name="text">
-        <string notr="true">Fast</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QRadioButton" name="radioModelHigh">
-       <property name="toolTip">
-        <string notr="true">3D Model Quality</string>
-       </property>
-       <property name="text">
-        <string notr="true">High</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QRadioButton" name="radioModelLow">
-       <property name="toolTip">
-        <string notr="true">3D Model Quality</string>
-       </property>
-       <property name="text">
-        <string notr="true">Low</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>30</y>
-      <width>111</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridTexQual">
-     <item row="1" column="0">
-      <widget class="QRadioButton" name="radioTexFast">
-       <property name="toolTip">
-        <string notr="true">Texture Quality</string>
-       </property>
-       <property name="text">
-        <string notr="true">Fast</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QRadioButton" name="radioTexHigh">
-       <property name="toolTip">
-        <string notr="true">Texture Quality</string>
-       </property>
-       <property name="text">
-        <string notr="true">High</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="lbTextureQual">
-       <property name="styleSheet">
-        <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QToolButton" name="btnBrowse">
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>440</y>
+      <y>390</y>
       <width>25</width>
       <height>19</height>
      </rect>
@@ -580,7 +405,7 @@
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>480</y>
+      <y>430</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -589,18 +414,192 @@
      <string notr="true">Apply</string>
     </property>
    </widget>
-   <zorder>layoutWidget</zorder>
-   <zorder>layoutWidget</zorder>
+   <widget class="QCheckBox" name="chkWideAngle">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string notr="true">Wide Angle View</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="wdgtModelQual" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radioModelHigh">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">High</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioModelFast">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">Fast</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioModelLow">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">Low</string>
+     </property>
+    </widget>
+    <zorder>radioModelHigh</zorder>
+    <zorder>radioModelFast</zorder>
+    <zorder>radioModelLow</zorder>
+    <zorder>groupBox_3</zorder>
+   </widget>
+   <widget class="QWidget" name="wdgtTexQual" native="true">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>50</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radioTexHigh">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">High</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioTexFast">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">Fast</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wdgtColorPal" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>140</y>
+      <width>120</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radioColor16b">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">High Color (16-bit)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioColor256">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string notr="true">256 Color</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lbModelQual">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Model Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbTextQual">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Texture Quality&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbColorPal">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Color Palette&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
    <zorder>imgBrkstr</zorder>
-   <zorder>layoutWidget</zorder>
-   <zorder>chkFullscreen</zorder>
+   <zorder>chkWindowed</zorder>
    <zorder>chkMusic</zorder>
    <zorder>chkJoystick</zorder>
    <zorder>chkSound</zorder>
    <zorder>lbDisplay</zorder>
-   <zorder>line3</zorder>
-   <zorder>line2</zorder>
-   <zorder>line1</zorder>
    <zorder>line4</zorder>
    <zorder>comboD3D</zorder>
    <zorder>lbAdvanced</zorder>
@@ -617,13 +616,22 @@
    <zorder>btnRedirect</zorder>
    <zorder>btnBrowse</zorder>
    <zorder>btnApply</zorder>
+   <zorder>lbModelQual</zorder>
+   <zorder>chkWideAngle</zorder>
+   <zorder>wdgtModelQual</zorder>
+   <zorder>wdgtTexQual</zorder>
+   <zorder>wdgtColorPal</zorder>
+   <zorder>lbModelQual</zorder>
+   <zorder>lbTextQual</zorder>
+   <zorder>radioModelFast</zorder>
+   <zorder>lbColorPal</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>480</width>
+     <width>472</width>
      <height>21</height>
     </rect>
    </property>
@@ -676,15 +684,8 @@
   </action>
  </widget>
  <tabstops>
-  <tabstop>radioModelLow</tabstop>
-  <tabstop>radioModelFast</tabstop>
-  <tabstop>radioModelHigh</tabstop>
-  <tabstop>radioTexFast</tabstop>
-  <tabstop>radioTexHigh</tabstop>
-  <tabstop>radioColor256</tabstop>
-  <tabstop>radioColor16b</tabstop>
   <tabstop>chkMusic</tabstop>
-  <tabstop>chkFullscreen</tabstop>
+  <tabstop>chkWindowed</tabstop>
   <tabstop>chkJoystick</tabstop>
   <tabstop>chkCursor</tabstop>
   <tabstop>chkSound</tabstop>
