@@ -12,7 +12,7 @@ Licensed under The MIT License
 
 import os
 import distutils.file_util
-from src.core.registry import Registry
+from src.registry.registry import Registry
 
 __all__ = ("ReDirect")
 
