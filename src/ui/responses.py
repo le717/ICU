@@ -11,12 +11,12 @@ Licensed under The MIT License
 
 
 from src.core.queue import ActionsQueue
+from src.core.utils import Utils
 
 
 class Responses:
 
     def __init__(self, ICU):
-        self.makeAction = ICU.makeAction
         self.queue = ActionsQueue(ICU.firstLoad)
 
     # Mass actions
@@ -37,66 +37,66 @@ class Responses:
     # Radio buttons
     def radioColor256(self, val):
         print("color", "8")
-        self.queue.add(self.makeAction("color", "8"))
+        self.queue.add(Utils.makeAction("color", "8"))
 
     def radioColor16b(self, val):
         print("color", "16")
-        self.queue.add(self.makeAction("color", "16"))
+        self.queue.add(Utils.makeAction("color", "16"))
 
     def radioModelLow(self, val):
         print("model", "0")
-        self.queue.add(self.makeAction("model", "0"))
+        self.queue.add(Utils.makeAction("model", "0"))
 
     def radioModelFast(self, val):
         print("model", "1")
-        self.queue.add(self.makeAction("model", "1"))
+        self.queue.add(Utils.makeAction("model", "1"))
 
     def radioModelHigh(self, val):
         print("model", "2")
-        self.queue.add(self.makeAction("model", "2"))
+        self.queue.add(Utils.makeAction("model", "2"))
 
     def radioTexFast(self, val):
         print("texture", "0")
-        self.queue.add(self.makeAction("texture", "0"))
+        self.queue.add(Utils.makeAction("texture", "0"))
 
     def radioTexHigh(self, val):
         print("texture", "1")
-        self.queue.add(self.makeAction("texture", "1"))
+        self.queue.add(Utils.makeAction("texture", "1"))
 
     # Check boxes
     def chkCursor(self, val):
         print("cursor", val)
-        self.queue.add(self.makeAction("cursor", val))
+        self.queue.add(Utils.makeAction("cursor", val))
 
     def chkDraw3D(self, val):
         print("draw3d", val)
-        self.queue.add(self.makeAction("draw3d", val))
+        self.queue.add(Utils.makeAction("draw3d", val))
 
     def chkFlipSurface(self, val):
         print("surface", val)
-        self.queue.add(self.makeAction("surface", val))
+        self.queue.add(Utils.makeAction("surface", val))
 
     def chkWindowed(self, val):
         print("windowed", not val)
-        self.queue.add(self.makeAction("windowed", not val))
+        self.queue.add(Utils.makeAction("windowed", not val))
 
     def chkJoystick(self, val):
         print("joystick", val)
-        self.queue.add(self.makeAction("joystick", val))
+        self.queue.add(Utils.makeAction("joystick", val))
 
     def chkMusic(self, val):
         print("music", val)
-        self.queue.add(self.makeAction("music", val))
+        self.queue.add(Utils.makeAction("music", val))
 
     def chkSound(self, val):
         print("sound", val)
-        self.queue.add(self.makeAction("sound", val))
+        self.queue.add(Utils.makeAction("sound", val))
 
     def chkWideAngle(self, val):
         print("wideangle", val)
-        self.queue.add(self.makeAction("wideangle", val))
+        self.queue.add(Utils.makeAction("wideangle", val))
 
     # Direct3D dropdown selection
     def comboD3D(self, val):
         print("d3d", val)
-        self.queue.add(self.makeAction("d3d", val))
+        self.queue.add(Utils.makeAction("d3d", val))

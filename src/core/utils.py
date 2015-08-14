@@ -14,24 +14,24 @@ import ctypes
 import logging
 import subprocess
 
+
 __all__ = ("Utils")
 
 
 class Utils:
 
-    """Utility functions.
+    """Utility methods."""
 
-    Contains utility functions, including:
-    * Reloading with administrator rights
-
-    Exposes the following public properties and methods:
-    * runAsAdmin {Method} Tests for and prompts to reload
-        with administrator rights.
-    """
+    @staticmethod
+    def makeAction(name, val):
+        return {
+            "name": name,
+            "val": val
+        }
 
     @staticmethod
     def runAsAdmin():
-        """Check for and reload with administrator rights.
+        """Test for and reload with administrator rights.
 
         @returns {?Boolean} True if already running with
                             administrator rights, or the user

@@ -10,6 +10,7 @@ Licensed under The MIT License
 """
 
 
+from src.core.utils import Utils
 from src.registry.registry import Registry
 from src.ui.responses import Responses
 
@@ -43,18 +44,11 @@ class ICU:
         # Get the initial registry values
         for key in registry.readAll():
             self.firstLoad.append(
-                self.makeAction(self.convertKeyNames(key[0]), key[1])
+                Utils.makeAction(self.convertKeyNames(key[0]), key[1])
             )
 
         # Connect the buttons to the queue
         self.responses = Responses(self)
-
-    @staticmethod
-    def makeAction(name, val):
-        return {
-            "name": name,
-            "val": val
-        }
 
     def convertKeyNames(self, name):
         if name in self._map:

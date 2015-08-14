@@ -17,12 +17,13 @@ import platform
 
 from src import constants as const
 
+
 __all__ = ("Logger")
 
 
 class Logger:
 
-    """App logging"""
+    """Application logging."""
 
     # Define the log location
     path = os.path.join(os.path.expandvars("%AppData%"),
