@@ -43,3 +43,10 @@ class ActionsQueue:
 
     def clear(self):
         self.queue = []
+
+    @staticmethod
+    def makeAction(name, val):
+        return {
+            "name": name,
+            "val": val
+        }
